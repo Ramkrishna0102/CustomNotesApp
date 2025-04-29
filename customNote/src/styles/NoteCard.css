@@ -1,0 +1,11 @@
+.note-card {
+    background-color: var(--color-light-bg);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 6px var(--color-shadow);
+    padding: var(--spacing-medium);
+    transition: transform 0.2s ease;
+  }
+  
+  .note-card:hover {
+    transform: scale(1.02);
+  }

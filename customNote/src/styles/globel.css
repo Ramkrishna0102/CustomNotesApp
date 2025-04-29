@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--font-primary);
+    color: var(--color-light-text);
+    background-color: var(--color-light-bg);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: var(--spacing-small) var(--spacing-medium);
+    font-size: 1rem;
+    font-family: var(--font-primary);
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: var(--color-light-accent);
+    color: #fff;
+  }
